@@ -4,7 +4,7 @@
  si la huella coincide dara la apertura del servomotor por 10 segundos. Luego de los 10 segundos 
  el servomotor bloqueara el paso.                   
                                                                                                                                  
-  Para lograr esto necesitaremos la libreria del sensor dactilar que nos proporciona Adafruit
+  Para lograr esto necesitaremos la libreria del sensor dactilar que nos proporciona Adafruit,
  Libreria Adafruit_Fingerprint.h
  Tambien la libreria SoftwareSerial y Servo que incluye ya el IDE de Arduino                                                                  
 
