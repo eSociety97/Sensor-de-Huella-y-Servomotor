@@ -1,8 +1,7 @@
 # PARQUEO INTELIGENTE CON SENSOR DACTILAR
                                                                                                                                 
   Este sistema depende de una confirmacion de una huella ya almacenada en el sensor dactilar
- si la huella coincide dara la apertura del servomotor por 10 segundos. Luego de los 10 segundos 
- el servomotor bloqueara el paso.                   
+ si la huella 1 coincide dara la apertura del servomotor. Si la huella 2 coincide dara el cierre al servomotor
                                                                                                                                  
   Para lograr esto necesitaremos la libreria del sensor dactilar que nos proporciona Adafruit,
  Libreria Adafruit_Fingerprint.h
