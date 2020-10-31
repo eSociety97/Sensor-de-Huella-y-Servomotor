@@ -129,13 +129,9 @@ int getFingerprintIDez() {
   if(finger.fingerID == 1){
   Serial.println("Bienvenido"); 
   puerta.write(0);   //Aperturamos el Servo 
-  delay(10000);      //Por 10 segundos 
-  puerta.write(90);   //Luego lo regresamos a su posicion de Cerrado
   }
-    if(finger.fingerID == 0){
-  Serial.println("Bienvenido"); 
-  puerta.write(0);   //Aperturamos la puerta accionando el Servo 
-  delay(10000);      //Por 10 segundos 
+    if(finger.fingerID == 2){
+  Serial.println("Bienvenido");  
   puerta.write(90);  //Luego lo regresamos a su posicion de Cerrado
   }
 
